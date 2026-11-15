@@ -1,0 +1,6 @@
+torch>=2.4
+transformers>=4.45
+accelerate>=0.34
+openai>=1.50
+python-dotenv>=1.0
+tqdm>=4.66
