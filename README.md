@@ -31,7 +31,6 @@ export PATH=$PWD/codeql:$PATH
 codeql version          # should report 2.19.1
 ```
 
-Other CodeQL versions ship different queries and may give different vulnerability rates.
 
 ## 2. Data
 
