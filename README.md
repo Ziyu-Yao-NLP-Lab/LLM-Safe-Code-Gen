@@ -23,14 +23,7 @@ Gated Hugging Face models (Llama, CodeLlama) need `huggingface-cli login` or `HF
 
 ### CodeQL
 
-Install CodeQL yourself. The paper uses **CodeQL 2.19.1** with the `python-security-extended` query suite. Download the bundle for your platform from the [codeql-bundle-v2.19.1 release](https://github.com/github/codeql-action/releases/tag/codeql-bundle-v2.19.1). The bundle contains the CLI and the `codeql/python-queries` pack. Then put `codeql` on your PATH:
-
-```bash
-tar -xzf codeql-bundle-linux64.tar.gz
-export PATH=$PWD/codeql:$PATH
-codeql version          # should report 2.19.1
-```
-
+Install CodeQL yourself. The paper uses **CodeQL 2.19.1** with the `python-security-extended` query suite. Download the bundle for your platform from the [codeql-bundle-v2.19.1 release](https://github.com/github/codeql-action/releases/tag/codeql-bundle-v2.19.1). The bundle contains the CLI and the `codeql/python-queries` pack.
 
 ## 2. Data
 
